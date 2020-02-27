@@ -15,6 +15,7 @@
 		47AC0E332407A75700BE127D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E322407A75700BE127D /* Preview Assets.xcassets */; };
 		47AC0E362407A75700BE127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AC0E342407A75700BE127D /* LaunchScreen.storyboard */; };
 		47AC0E3E2407A93000BE127D /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E3D2407A93000BE127D /* ToDoItem.swift */; };
+		47AC0E402407B5E800BE127D /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AC0E3F2407B5E800BE127D /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		47AC0E352407A75700BE127D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47AC0E372407A75700BE127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47AC0E3D2407A93000BE127D /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		47AC0E3F2407B5E800BE127D /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				47AC0E282407A75500BE127D /* SceneDelegate.swift */,
 				47AC0E2D2407A75500BE127D /* ContentView.swift */,
 				47AC0E3D2407A93000BE127D /* ToDoItem.swift */,
+				47AC0E3F2407B5E800BE127D /* ToDoItemView.swift */,
 				47AC0E2F2407A75700BE127D /* Assets.xcassets */,
 				47AC0E342407A75700BE127D /* LaunchScreen.storyboard */,
 				47AC0E372407A75700BE127D /* Info.plist */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47AC0E272407A75500BE127D /* AppDelegate.swift in Sources */,
+				47AC0E402407B5E800BE127D /* ToDoItemView.swift in Sources */,
 				47AC0E292407A75500BE127D /* SceneDelegate.swift in Sources */,
 				47AC0E3E2407A93000BE127D /* ToDoItem.swift in Sources */,
 				47AC0E2E2407A75500BE127D /* ContentView.swift in Sources */,
