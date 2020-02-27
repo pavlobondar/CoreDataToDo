@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.managedObjectContext) var managedObjectContext
+    @FetchRequest(fetchRequest: ToDoItem.getAllToDoItems()) var toDoItems: FetchedResults<ToDoItem>
     var body: some View {
         Text("Hello, World!")
     }
